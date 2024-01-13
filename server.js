@@ -10,7 +10,13 @@ const server = http.createServer((req, res) => {
         <title>Sprint 10 Entregable 2</title>
     </head>
     <body>
-        <h1>Hola Mundo ${sum(3, 4)}</h1>
+        <h1>Hola Mundo</h1>
+          <ul> 
+            <li>Resultado de la suma es ${sum(3, 4)}</li>
+            <li>Resultado de la multiplicacion es ${multiply(3, 4)}</li>
+            <li>Resultado de la resta es ${min(3, 4)}</li>
+            <li>Resultado de la division es ${div(3, 4)}</li>
+          </ul>
     </body>
     </html>`
     );
