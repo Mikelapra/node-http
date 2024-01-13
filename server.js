@@ -1,4 +1,8 @@
+// Importo y destructuro el objeto.
+
 const { sum, multiply, min, div } = require('./data.js');
+
+// Crear el servidor:
 
 const http = require('node:http');
 
@@ -21,6 +25,8 @@ const server = http.createServer((req, res) => {
     </html>`
     );
 });
+
+//Que el servidor escuche:
 
 server.listen(0, () => {
     console.log(

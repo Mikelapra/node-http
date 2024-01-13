@@ -14,6 +14,8 @@ function sum(a, b) {
     return a / b;
   }
   
+// Creo un objeto a exportar con las funciones:
+
   module.exports = {
     sum,
     multiply,
